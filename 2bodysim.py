@@ -11,7 +11,7 @@ G = 6.6738 * 10 ** -11   # m^3kg^-1s^-2
 M = 1.9891 * 10 ** 30  # mass of the object-1
 m = 5.972 * 10 ** 24  # mass of the object-2
 
-h = 3600  # timsestep
+h = 3600  # time step
 t_points = arange(0, 4 *365 * 24 * 3600, h)
 
 
