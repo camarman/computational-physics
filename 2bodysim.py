@@ -39,7 +39,7 @@ R_y1 = []  # y component of the position vector of the m1
 R_x2 = []  # x component of the position vector of the m2
 R_y2 = []  # y component of the position vector of the m2
 V1 = []  # storing velocity values of the m1
-V2 = []  # storing velocity values of the m1
+V2 = []  # storing velocity values of the m2
 
 U1_data = []  # storing potential energy of m1
 T1_data = []  # storing kinetic energy of m1
@@ -96,7 +96,7 @@ plot(R_x2, R_y2, "b-.")
 xlabel("x axis")
 ylabel("y axis")
 grid(True)
-legend(("M", "m"))
+legend(("m1", "m2"))
 show()
 
 plot(time_range, U1_data, "g-.")
