@@ -10,16 +10,16 @@ start = perf_counter()
 G = 6.6738 * 10 ** -11   # m^3kg^-1s^-2
 
 dt = 3600  # time step
-time_range = arange(0, 20 * 365 * 24 * 3600, dt)
+time_range = arange(0, 365 * 24 * 3600, dt)
 
 
-m1 = 1.9891 * 10 ** 25  # mass of the object-1
+m1 = 1.9891 * 10 ** 30  # mass of the object-1
 r1 = array([1, 1])  # position vector of the m1 (meters). I set the values (1,1) otherwise the energy calculations give inf
-v1 = array([0, 10000])  # velocity vector of the m1 (m/s)
+v1 = array([0, 0])  # velocity vector of the m1 (m/s)
 
-m2 = 1.9891 * 10 ** 25  # mass of the object-2
-r2 = array([740.52 * 10**6, 0])  # position vector of the m2 (meters)
-v2 = array([0, -10000])  # velocity vector of the m2 (m/s)
+m2 = 5.972 * 10 ** 24  # mass of the object-2
+r2 = array([1.4710 * 10**11, 0])  # position vector of the m2 (meters)
+v2 = array([0, 3.0287 * 10**4])  # velocity vector of the m2 (m/s)
 
 
 def f_m1(r1, r2, t):
