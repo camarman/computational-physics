@@ -9,17 +9,17 @@ start = perf_counter()
 
 G = 6.6738 * 10 ** -11   # m^3kg^-1s^-2
 
-dt = 3600  # time - step
+dt = 3600  # time step
 time_range = arange(0, 20 * 365 * 24 * 3600, dt)
 
 
 m1 = 1.9891 * 10 ** 25  # mass of the object-1
-r1 = array([1, 1])  # position vector of the m2 (m) #I set to values (1,1) otherwise the energy calculations give inf
-v1 = array([0, 10000])  # velocity vector of the m2 (m/s)
+r1 = array([1, 1])  # position vector of the m1 (meters). I set the values (1,1) otherwise the energy calculations give inf
+v1 = array([0, 10000])  # velocity vector of the m1 (m/s)
 
 m2 = 1.9891 * 10 ** 25  # mass of the object-2
-r2 = array([740.52 * 10**6, 0])  # position vector of the m1 (m)
-v2 = array([0, -10000])  # velocity vector of the m1 (m/s)
+r2 = array([740.52 * 10**6, 0])  # position vector of the m2 (meters)
+v2 = array([0, -10000])  # velocity vector of the m2 (m/s)
 
 
 def f_m1(r1, r2, t):
@@ -43,15 +43,15 @@ V2 = []  # storing velocity values of the m2
 
 U1_data = []  # storing potential energy of m1
 T1_data = []  # storing kinetic energy of m1
-E1_data = []  # stroing total energy of m1
+E1_data = []  # storing total energy of m1
 
 U2_data = []  # storing potential energy of m2
 T2_data = []  # storing kinetic energy of m2
-E2_data = []  # stroing total energy of m2
+E2_data = []  # storing total energy of m2
 
 
 def energy(r1, v1, r2, v2):
-    '''calculates the energy for a given object '''
+    '''calculates the energy of each object '''
     U1 = (-G * m1 * m2) / (r1[0]**2 + r1[1]**2)**(1/2)  # potential energy
     T1 = 0.5 * m1 * (v1[0]**2 + v1[1]**2)  # kinetic energy
     E1 = U1 + T1  # total energy
