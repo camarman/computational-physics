@@ -1,3 +1,3 @@
 # Computational-Physics
 
-Solutions to some exercise problems in the [Computational Physics] book (https://www.amazon.com/Computational-Physics-Mark-Newman/dp/1480145513) written by Mark Newman
+Solutions to some exercise problems in the [Computational Physics](https://www.amazon.com/Computational-Physics-Mark-Newman/dp/1480145513) book, written by Mark Newman
