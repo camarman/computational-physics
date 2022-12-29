@@ -1,4 +1,4 @@
-# Quantum potential step
+# Quantum step potential
 
 from math import sqrt
 

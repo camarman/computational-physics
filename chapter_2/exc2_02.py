@@ -1,5 +1,4 @@
 # Exercise 2.2 : Altitude of a satellite
-# Calculates the altitude of a satellite for a given height
 
 from math import pi
 

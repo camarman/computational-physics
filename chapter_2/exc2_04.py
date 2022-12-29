@@ -1,5 +1,3 @@
-# Relativistic travel time calculator for a distant planet
-
 from math import sqrt
 
 c = 1  # since we are taking v as a fraction of c
