@@ -1,7 +1,6 @@
 # Euler's method
 
-from math import sin
-from numpy import arange
+from numpy import arange, sin
 from pylab import plot, show, xlabel, ylabel
 
 

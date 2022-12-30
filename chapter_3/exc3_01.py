@@ -1,5 +1,6 @@
 from pylab import loadtxt, plot, show, xlabel, ylabel, title
 
+
 data = loadtxt("sunspots.txt")
 
 time = data[:, 0]

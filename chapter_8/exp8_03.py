@@ -1,8 +1,8 @@
 # Fourth order RK method
 
-from math import sin
-from numpy import arange
+from numpy import arange, sin
 from pylab import plot, show
+
 
 x = 0        # initial conditions
 t_i = 0      # initial time

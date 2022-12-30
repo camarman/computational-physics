@@ -2,6 +2,7 @@
 
 from math import pi
 
+
 G = 6.67e-11  # m^3/ kgs^2
 M_earth = 5.97e24  # mass of the earth
 R = 6371  # radius of the earth in km

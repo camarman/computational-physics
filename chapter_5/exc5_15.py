@@ -3,6 +3,7 @@
 from numpy import linspace, tanh, cosh
 from pylab import plot, show
 
+
 h = 10**-5
 x_initial = -2
 x_final = 2

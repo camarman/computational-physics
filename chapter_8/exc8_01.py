@@ -1,7 +1,6 @@
 # Low pass filter
 
-from numpy import arange
-from math import floor
+from numpy import arange, floor
 from pylab import plot, show, xlabel, ylabel
 
 

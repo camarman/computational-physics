@@ -1,8 +1,8 @@
 # Differential equation with more than one variable
 
-from numpy import array, arange
-from math import sin
+from numpy import array, arange, sin
 from pylab import plot, show
+
 
 t_i = 0
 t_f = 10

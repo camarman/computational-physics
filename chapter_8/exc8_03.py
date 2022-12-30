@@ -3,6 +3,7 @@
 from numpy import array, arange
 from pylab import plot, show
 
+
 sigma, r, b = 10, 28, 8/3
 
 t_i = 0

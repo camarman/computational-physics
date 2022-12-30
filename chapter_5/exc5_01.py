@@ -1,5 +1,6 @@
 from pylab import loadtxt, plot, show, xlabel, title, legend
 
+
 data = loadtxt("velocities.txt")
 
 time = data[:, 0]

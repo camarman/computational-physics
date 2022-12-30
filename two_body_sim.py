@@ -1,9 +1,9 @@
 # Two body problem
 
-from math import sqrt
-from numpy import arange, array
+from numpy import arange, array, sqrt
 from pylab import plot, show, xlabel, ylabel, legend, grid, title
 from time import perf_counter
+
 
 start = perf_counter()
 

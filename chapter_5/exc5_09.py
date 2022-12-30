@@ -1,6 +1,5 @@
 from gaussxw import gaussxw
-from math import exp
-from numpy import linspace
+from numpy import linspace, exp
 from pylab import plot, show, xlabel, ylabel, title, grid
 
 

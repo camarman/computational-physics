@@ -5,7 +5,6 @@ c = 1  # since we are taking v as a fraction of c
 x_0 = float(input("Enter the distance to a planet in light years: "))
 v = float(input("Enter the speed of the spaceship as a fraction of c: "))
 
-
 t_0 = x_0 / v  # units in year
 gamma = 1 / sqrt(1 - (v/c)**2)
 

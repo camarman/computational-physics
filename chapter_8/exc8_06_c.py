@@ -3,6 +3,7 @@
 from numpy import arange, array
 from pylab import plot, show, xlabel, ylabel, title
 
+
 omega = 1
 t_i = 0
 t_f = 100

@@ -1,6 +1,7 @@
 from pylab import plot, show
 from numpy import sin, cos, pi, linspace, exp
 
+
 # deltoid curve
 theta = linspace(0, 2 * pi, 100)
 x = 2 * cos(theta) + cos(2 * theta)
