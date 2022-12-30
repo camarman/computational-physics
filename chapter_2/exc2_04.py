@@ -1,5 +1,6 @@
 from math import sqrt
 
+
 c = 1  # since we are taking v as a fraction of c
 
 x_0 = float(input("Enter the distance to a planet in light years: "))
