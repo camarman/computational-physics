@@ -1,4 +1,4 @@
-# Central difference derivative for sample points
+# Central difference method
 
 from numpy import linspace, tanh, cosh
 from pylab import plot, show

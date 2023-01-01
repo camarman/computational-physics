@@ -1,4 +1,4 @@
-# The Simpsons Rule
+# The Simpson's Rule
 
 def f(x):
     '''the function'''

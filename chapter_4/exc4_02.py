@@ -1,4 +1,4 @@
-# Quadratic equation solver
+# Quadratic equation solver (only real solutions)
 
 from math import sqrt
 

@@ -1,4 +1,4 @@
-# Quantum step potential
+# Quantum mechanics - step potential (E>V)
 
 from math import sqrt
 

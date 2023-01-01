@@ -1,4 +1,4 @@
-# Simpsons rule until desired accuracy reached
+# Simpson's rule until desired accuracy is reached
 
 from math import sin, sqrt
 
